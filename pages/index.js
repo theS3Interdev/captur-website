@@ -2,6 +2,7 @@ import Meta from '../lib/meta';
 import Hero from '../components/hero';
 import Slider from '../components/slider';
 import { SliderData } from '../components/slider-data';
+import Instagram from '../components/instagram';
 
 const Home = () => {
 	return (
@@ -17,6 +18,10 @@ const Home = () => {
 			{/** slider section start */}
 			<Slider slides={SliderData} />
 			{/** slider section end */}
+
+			{/** instagram section start */}
+			<Instagram />
+			{/** instagram section end */}
 		</>
 	);
 };
