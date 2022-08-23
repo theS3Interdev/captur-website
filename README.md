@@ -1,19 +1,26 @@
-# Next+Tailwind Starter
+# Captur Photography
 
-## Summary
+## Description
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It also uses Tailwind CSS for styling.
+Sample project to build and deploy a fully responsive website incorporating the image component of Next.JS.
 
-## Getting Started
+This means that all of the images in the project will take advantage of lazy loading. An image slider will also be built and it will also lazy load all the images which will result in faster load times and increased search engine optimization for the website.
 
-First, run the development server:
+Since Next.JS offers a built in routing system and the Link component, we do not have to use the react-router-dom as we normally would when handling routing in React.JS applications. 
 
-```
-yarn dev
-```
+The project also puts into practice proper management of Git by organizing code into staging and production ready branches so that there is always a version of the code ready to go.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Finally, the repetitive process of building and deploying the project to production is automated by using Vercel to automatically deploy everytime the `main` GitHub branch is updated.
 
-## Deploy on Vercel
+## Learning Goals
+1. Build a responsive Next.JS website using Tailwind CSS
+2. Parallax scrolling
+3. Image slider using the Next.JS image component
+4. Routing in Next.JS
+5. Passing properties down to child components
+6. Statically imported images & external URL loaded images
 
-The easiest way to deploy the Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
+1. Next.JS
+2. Tailwind CSS
+3. Vercel Hosting
