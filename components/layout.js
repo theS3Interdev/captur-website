@@ -1,10 +1,12 @@
+import Navbar from './navbar';
 import Meta from '../lib/meta';
 
 const Layout = ({ children }) => {
 	return (
 		<>
 			<Meta />
-			<div>{children}</div>
+			<Navbar />
+			<main>{children}</main>
 		</>
 	);
 };
