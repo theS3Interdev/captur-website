@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<>
 			{/** title bar start */}
-			<Meta title="Captur Photography | Superior Software Solutions" />
+			<Meta title="Home | Captur Photography | Superior Software Solutions" />
 			{/** title bar end */}
 
 			{/** hero section start */}
