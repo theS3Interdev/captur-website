@@ -1,3 +1,4 @@
+import Hero from '../components/Hero';
 import Meta from '../lib/Meta';
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
 			<Meta title="Captur Photography | Superior Software Solutions" />
 			{/** title bar end */}
 
-			<h1 className="p-8 text-center text-4xl font-bold text-indigo-800">Your settings are well configured</h1>
+			<Hero heading="Captur Photography" message="I capture moments in nature and keep them alive" />
 		</>
 	);
 };
