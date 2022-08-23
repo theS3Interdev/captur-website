@@ -1,5 +1,5 @@
-import Hero from '../components/Hero';
-import Meta from '../lib/Meta';
+import Hero from '../components/hero';
+import Meta from '../lib/meta';
 
 const Home = () => {
 	return (
